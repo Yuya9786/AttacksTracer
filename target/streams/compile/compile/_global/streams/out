@@ -1,0 +1,23 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorServerImpl.scala:3:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.typed.{ActorRef, ActorSystem}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorServerImpl.scala:6:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport malwaresimulator.engine.core.InetAddress[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorServerImpl.scala:9:90: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport malwaresimulator.proto.{AddNetworkRequest, AddNodeRequest, MakeConnectionRequest, WholeNetwork}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorServerImpl.scala:12:20: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.util.{Failure, Success}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorServerImpl.scala:12:29: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.util.{Failure, Success}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorSupervisor.scala:44:24: non-variable type argument malwaresimulator.nodes.Node.NodeCommand in type pattern akka.actor.typed.ActorRef[malwaresimulator.nodes.Node.NodeCommand] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case (nodeRef: ActorRef[nodes.Node.NodeCommand], networkRef: ActorRef[malwaresimulator.Network.NetworkCommand]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorSupervisor.scala:26:142: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (_, Network(_, _, _, _, _))[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def apply(actors: Map[Int, ActorType[malwaresimulator.Network.NetworkCommand]], id: Int): Behaviors.Receive[Operation] = Behaviors.receive {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 3 products, 4 sources, 10 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/malwaresimulator/MalwareSimulatorSupervisorTest.scala, ${BASE}/src/test/scala/malwaresimulator/gRPCTest.scala, ${BASE}/src/test/scala/malwaresimulator/engine/applications/WebServerTest.scala, ${BASE}/src/test/scala/malwaresimulator/engine/applications/MalwareTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(malwaresimulator.MalwareSimulatorServer$,ModifiedNames(changes = UsedName(finalize,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe malwaresimulator.MalwareSimulatorServer$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) malwaresimulator.MalwareSimulatorServer$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) malwaresimulator.MalwareSimulatorServer$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of malwaresimulator.gRPCTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

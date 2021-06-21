@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/test/scala/malwaresimulator/gRPCTest.scala:6:29: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.stream.scaladsl.Source[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/test/scala/malwaresimulator/gRPCTest.scala:8:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport malwaresimulator.Network.AddNode[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

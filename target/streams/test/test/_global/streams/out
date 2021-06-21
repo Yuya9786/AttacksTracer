@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(malwaresimulator.MalwareSimulatorSupervisorTest, org.scalatest.tools.Framework$$anon$1@17280952, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(malwaresimulator.engine.applications.MalwareTest, org.scalatest.tools.Framework$$anon$1@17280952, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(malwaresimulator.gRPCTest, org.scalatest.tools.Framework$$anon$1@17280952, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMalwareTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMalware actor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must reply a network search result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMalwareSimulatorSupervisorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMalwareSimulatorSuperVisor actor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- must reply WholeNetwork for ShowNet *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.AssertionError: expected WholeNetwork(List(Network(0,network1,10.0.0.0,24,List(Node(1,node1,10.0.0.1,List(),UnknownFieldSet(Map())), Node(2,node2,10.0.0.2,List(),UnknownFieldSet(Map()))),UnknownFieldSet(Map()))),UnknownFieldSet(Map())), found WholeNetwork(List(Network(0,network1,10.0.0.0,24,List(Node(2,node2,10.0.0.2,List(),UnknownFieldSet(Map())), Node(1,node1,10.0.0.1,List(),UnknownFieldSet(Map()))),UnknownFieldSet(Map()))),UnknownFieldSet(Map()))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.testkit.typed.internal.TestProbeImpl.assertFail(TestProbeImpl.scala:391)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.testkit.typed.internal.TestProbeImpl.expectMessage_internal(TestProbeImpl.scala:169)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.testkit.typed.internal.TestProbeImpl.expectMessage(TestProbeImpl.scala:148)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at malwaresimulator.MalwareSimulatorSupervisorTest.$anonfun$new$2(MalwareSimulatorSupervisorTest.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.wordspec.AnyWordSpecLike$$anon$3.apply(AnyWordSpecLike.scala:1076)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgRPCTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMalwareSimulatorServer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should reply to single request *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  A timeout occurred waiting for a future to complete. Queried 50 times, sleeping 100000000 nanoseconds between each query. (gRPCTest.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 7 seconds, 740 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	malwaresimulator.engine.applications.MalwareTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	malwaresimulator.MalwareSimulatorSupervisorTest[0m
+[0m[[0m[31merror[0m] [0m[0m	malwaresimulator.gRPCTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
