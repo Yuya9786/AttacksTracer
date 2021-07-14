@@ -1,1 +1,1 @@
-["malwaresimulator.engine.applications.MalwareTest","malwaresimulator.MalwareSimulatorSupervisorTest","malwaresimulator.gRPCTest"]
+["malwaresimulator.gRPCTest","malwaresimulator.MalwareSimulatorSupervisorTest","malwaresimulator.engine.FirewallTest"]
