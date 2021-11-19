@@ -23,6 +23,17 @@ val AkkaProjectionVersion = "1.1.0"
 val ScalikeJdbcVersion = "3.5.0"
 
 enablePlugins(AkkaGrpcPlugin)
+enablePlugins(JavaAppPackaging)
+
+
+// Dockerfileに書く内容
+packageName in Docker := "sample-webapp"
+version in Docker := "1.0"
+dockerRepository := Some("petitviolet")
+maintainer in Docker := "petitviolet <mail@example.com>"
+dockerExposedPorts := List(8080)
+dockerBaseImage := "openjdk:latest"
+dockerCmd := Nil
 
 libraryDependencies ++= Seq(
 //  "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
