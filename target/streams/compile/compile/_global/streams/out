@@ -1,8 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorSupervisor.scala:61:11: local val malwareRef in value $anonfun is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m      val malwareRef = ctx.spawn(malwaresimulator.engine.applications.Malware(malwareName, nodeRef, InetAddress(ccsAddress)), malwareName)[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/scala/malwaresimulator/MalwareSimulatorSupervisor.scala:32:88: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def apply(actors: Actors, id: Int): Behaviors.Receive[Operation] = Behaviors.receive {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                                                       ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

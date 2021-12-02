@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/protobuf/MalwareSimulator.proto,/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/target/scala-2.13/classes/MalwareSimulator.proto)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/resources/local.conf,/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/target/scala-2.13/classes/local.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/resources/grpc.conf,/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/target/scala-2.13/classes/grpc.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/src/main/resources/application.conf,/Users/oh_yuya/Documents/Projects/malwaresimulator-kai/target/scala-2.13/classes/application.conf)[0m
