@@ -36,7 +36,7 @@ dockerBaseImage := "openjdk:latest"
 dockerCmd := Nil
 
 libraryDependencies ++= Seq(
-//  "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
+  "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
 //  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
 //  "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
 //  "ch.qos.logback" % "logback-classic" % "1.2.3",
@@ -45,19 +45,19 @@ libraryDependencies ++= Seq(
 //  "com.typesafe.akka" %% "akka-discovery" % akkaVersion,
 //  "com.typesafe.akka" %% "akka-http2-support" % akkaHttpVersion,
   // 1. Basic dependencies for a clustered application
-  "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
-  "com.typesafe.akka" %% "akka-cluster-typed" % AkkaVersion,
-  "com.typesafe.akka" %% "akka-cluster-sharding-typed" % AkkaVersion,
+//  "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
+//  "com.typesafe.akka" %% "akka-cluster-typed" % AkkaVersion,
+//  "com.typesafe.akka" %% "akka-cluster-sharding-typed" % AkkaVersion,
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % AkkaVersion % Test,
-  "com.typesafe.akka" %% "akka-stream-testkit" % AkkaVersion % Test,
+//  "com.typesafe.akka" %% "akka-stream-testkit" % AkkaVersion % Test,
   // Akka Management powers Health Checks and Akka Cluster Bootstrapping
-  "com.lightbend.akka.management" %% "akka-management" % AkkaManagementVersion,
-  "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
-  "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion,
-  "com.lightbend.akka.management" %% "akka-management-cluster-http" % AkkaManagementVersion,
-  "com.lightbend.akka.management" %% "akka-management-cluster-bootstrap" % AkkaManagementVersion,
-  "com.lightbend.akka.discovery" %% "akka-discovery-kubernetes-api" % AkkaManagementVersion,
-  "com.typesafe.akka" %% "akka-discovery" % AkkaVersion,
+//  "com.lightbend.akka.management" %% "akka-management" % AkkaManagementVersion,
+//  "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
+//  "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion,
+//  "com.lightbend.akka.management" %% "akka-management-cluster-http" % AkkaManagementVersion,
+//  "com.lightbend.akka.management" %% "akka-management-cluster-bootstrap" % AkkaManagementVersion,
+//  "com.lightbend.akka.discovery" %% "akka-discovery-kubernetes-api" % AkkaManagementVersion,
+//  "com.typesafe.akka" %% "akka-discovery" % AkkaVersion,
   // Common dependencies for logging and testing
   "com.typesafe.akka" %% "akka-slf4j" % AkkaVersion,
   "ch.qos.logback" % "logback-classic" % "1.2.3",
@@ -77,5 +77,8 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc" % ScalikeJdbcVersion,
   "org.scalikejdbc" %% "scalikejdbc-config" % ScalikeJdbcVersion,
   "com.typesafe.akka" %% "akka-stream-kafka" % AlpakkaKafkaVersion,
-  "com.lightbend.akka" %% "akka-projection-testkit" % AkkaProjectionVersion % Test
+  "com.lightbend.akka" %% "akka-projection-testkit" % AkkaProjectionVersion % Test,
+
+  // JSON Parser
+  "org.json4s" %% "json4s-jackson" % "3.6.12",
 )
