@@ -19,3 +19,59 @@
 [0m2021.12.12 14:20:42 WARN  no build target for: /Users/oh_yuya/Documents/Projects/malwaresimulator-kai/build.sbt[0m
 [0m2021.12.15 13:07:35 WARN  no build target for: /Users/oh_yuya/Documents/Projects/malwaresimulator-kai/build.sbt[0m
 [0m2021.12.15 13:08:01 WARN  no build target for: /Users/oh_yuya/Documents/Projects/malwaresimulator-kai/build.sbt[0m
+[0m2021.12.17 13:32:56 INFO  shutting down Metals[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@7d89f03f rejected from java.util.concurrent.ThreadPoolExecutor@388b71ea[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 103]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
+	at scala.concurrent.Future.map(Future.scala:292)
+	at scala.concurrent.Future.map$(Future.scala:292)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
+	at scala.concurrent.Future$.apply(Future.scala:659)
+	at scala.meta.internal.metals.MetalsLanguageServer.supportedBuildTool(MetalsLanguageServer.scala:2000)
+	at scala.meta.internal.metals.MetalsLanguageServer.slowConnectToBuildServer(MetalsLanguageServer.scala:2014)
+	at scala.meta.internal.metals.MetalsLanguageServer.onBuildChangedUnbatched(MetalsLanguageServer.scala:2524)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onBuildChanged$1(MetalsLanguageServer.scala:205)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at scala.meta.internal.metals.BatchedFunction.runRelease(BatchedFunction.scala:93)
+	at scala.meta.internal.metals.BatchedFunction.runAcquire(BatchedFunction.scala:76)
+	at scala.meta.internal.metals.BatchedFunction.unlock(BatchedFunction.scala:71)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$2(BatchedFunction.scala:96)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$2$adapted(BatchedFunction.scala:95)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3bc3bc16 rejected from java.util.concurrent.ThreadPoolExecutor@388b71ea[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 103]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$3(BatchedFunction.scala:97)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$2(BatchedFunction.scala:97)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$2$adapted(BatchedFunction.scala:95)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.12.17 14:32:49 INFO  Started: Metals version 0.10.9 in workspace '/Users/oh_yuya/Documents/Projects/malwaresimulator-kai' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.17 14:32:57 INFO  time: initialize in 7.59s[0m
+[0m2021.12.17 14:32:58 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.17 14:32:58 WARN  no build target for: /Users/oh_yuya/Documents/Projects/malwaresimulator-kai/project/plugins.sbt[0m
+[0m2021.12.17 14:33:08 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
